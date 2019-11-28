@@ -149,10 +149,14 @@ class Client
             throw new Exception('connect(): unable to set stream timeout');
         }
 
+        // NOTE: do not set non-blocking mode,
+        // as this simply interferes with tunneling SSH connections.
+        // When continuing use of the created socket connection elsewhere.
+        //
         // set to non-blocking
-        if (!stream_set_blocking($this->socket, 0)) {
-            throw new Exception('connect(): unable to set non-blocking');
-        }
+        // if (!stream_set_blocking($this->socket, 0)) {
+        //     throw new Exception('connect(): unable to set non-blocking');
+        // }
 
         return $this->negotiate();
     }

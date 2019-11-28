@@ -1,15 +1,21 @@
 {
-    "name": "weheartwebsites/socks5",
+    "name": "jocoon/socks5",
     "type": "library",
     "description": "A simple SOCKS5 tcp client",
     "keywords": ["proxy", "socks5", "net", "client", "tcp"],
-    "homepage": "https://github.com/weheartwebsites/SOCKS5",
+    "homepage": "https://github.com/Jocoon/SOCKS5",
     "license": "GPL-3.0+",
     "authors": [
         {
             "name": "Gunter Grodotzki",
             "email": "packagist@weheartwebsites.de",
             "homepage": "https://www.weheartwebsites.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Kevin Dargel",
+            "email": "kevin@jocoon.de",
+            "homepage": "https://jocoon.de",
             "role": "Developer"
         }
     ],
@@ -18,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Weheartwebsites\\": "src/Weheartwebsites"
+            "Jocoon\\": "src/Jocoon"
         }
     }
 }
