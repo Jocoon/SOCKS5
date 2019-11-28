@@ -9,7 +9,7 @@
  * that was distributed with this source code.
  */
 
-namespace Weheartwebsites\SOCKS5;
+namespace Jocoon\SOCKS5;
 
 /**
  * describes how a auth method has to work

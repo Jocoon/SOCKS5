@@ -9,10 +9,10 @@
  * that was distributed with this source code.
  */
 
-namespace Weheartwebsites\SOCKS5\Methods;
+namespace Jocoon\SOCKS5\Methods;
 
-use Weheartwebsites\SOCKS5\Method;
-use Weheartwebsites\SOCKS5\Client;
+use Jocoon\SOCKS5\Method;
+use Jocoon\SOCKS5\Client;
 
 /**
  * This authentication does not require anything nor does it do anything
