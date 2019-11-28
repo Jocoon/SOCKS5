@@ -10,10 +10,10 @@
  *
  */
 
-namespace Jocoon\SOCKS5\Methods;
+namespace jocoon\SOCKS5\Methods;
 
-use Jocoon\SOCKS5\Method;
-use Jocoon\SOCKS5\Client;
+use jocoon\SOCKS5\Method;
+use jocoon\SOCKS5\Client;
 use Exception;
 
 /**

@@ -9,7 +9,7 @@
  * that was distributed with this source code.
  */
 
-namespace Jocoon\SOCKS5;
+namespace jocoon\SOCKS5;
 
 use Exception;
 
