@@ -9,10 +9,10 @@
  * that was distributed with this source code.
  */
 
-namespace jocoon\SOCKS5\Methods;
+namespace jocoon\socks5\Methods;
 
-use jocoon\SOCKS5\Method;
-use jocoon\SOCKS5\Client;
+use jocoon\socks5\Method;
+use jocoon\socks5\Client;
 
 /**
  * This authentication does not require anything nor does it do anything

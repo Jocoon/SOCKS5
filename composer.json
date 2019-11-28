@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "jocoon\\socks5\\": "src/SOCKS5/"
+            "jocoon\\socks5\\": "src/socks5/"
         }
     }
 }
